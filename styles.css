@@ -1,0 +1,114 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container général */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Style de l'en-tête */
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Hero */
+.hero {
+    background: url('background-image.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cta-button {
+    background: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #e64a19;
+}
+
+/* Carousel pour les articles récents */
+.carousel {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+.carousel-content {
+    text-align: center;
+}
+
+.carousel-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide {
+    width: 30%;
+    background: #ddd;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Section des services */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    width: 30%;
+    background: #e7e7e7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
